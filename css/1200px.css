@@ -1,0 +1,365 @@
+@media (max-width:1200px){
+    
+    nav{
+        align-items: center;
+    }
+
+        
+    .header__logo{
+        top: 0;
+    }
+
+    nav .catalog li{
+        font-size: 12px;
+    }
+
+
+    nav .admin li button{
+        font-size:0.9vw;
+        width:  8em;
+        border: 0.15rem solid #fa7c30;
+        height: 2.2em;
+    }
+
+    .title button{
+        border: 0.15rem solid #fa7c30;
+    }
+
+    .free_programm{
+        max-width: 992px;
+        height: 384px;
+        margin-bottom: 100px;
+    }
+    
+
+    .free_programm  figure img{
+        width: 100%;       
+    }
+    
+    .free_programm .free_programm_list{
+        justify-content: flex-start;
+    }
+    
+    .free_programm .free_programm_list h2:nth-child(1){
+        font-size: 2vw;
+    }
+    
+    .free_programm .free_programm_list h2:nth-child(2){
+        font-size: 3vw;
+    }
+    
+     form{
+        margin-bottom: 45px;
+    }
+    
+    form .form_input{
+        width: 150px;
+        padding-top: 15px;
+        border: none; 
+        border-bottom: 1px solid #e0e0e0; 
+        background-color: transparent; 
+        outline: none;
+        transition: 0.3s;
+        position: relative;
+        z-index: 2;
+    }
+    
+    input::placeholder {
+        font-size: 12px;
+    }
+    
+    /* КНОПКА !!!!!!!!!!!*/
+    
+    .free_programm .free_programm_list .grow_btn {
+        font-size: 1vw;
+        width: 9.5vw;
+        border: 0.15rem solid #fa7c30;
+        height: 2.5vw;
+    }
+
+    /* Конец кнопки КНОПКА !!!!!!!!!!!*/
+
+
+    .block_fitness {
+        align-items: center;
+        margin-bottom: 100px;
+        margin-top: 400px;
+    }
+
+
+    .block_fitness figure{
+        width: 434px;
+        height: 500px;
+    }
+    
+    .block_fitness .block{
+        margin-top: 0;
+        margin-left: 5%;
+    }
+    
+    .block_fitness .block h2{
+        font-size: 2.2vw;
+    }
+    
+    
+    .block_fitness .block  p:nth-child(2){
+        font-size: 12px; 
+    }
+    
+    .block_fitness .block  p:nth-child(3){
+        font-size: 12px; 
+    }
+    
+    .block_fitness .block button {
+        font-size: 0.9vw;
+        width: 9.5vw;
+        border: 0.15rem solid #fa7c30;
+        height: 2.5vw;
+      }
+    
+
+
+
+    .block_fitness_category{
+        display: block;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    
+    .block_fitness_category h2{
+        font-size: 2.3vw;
+        margin-left:10.5%;
+        margin-bottom: 15px;
+    }
+    
+    
+    .block_fitness_category .text {
+        font-size: 8pt;
+        margin-left:10.5%;
+    }
+    
+    .block_fitness_category .fitness_category{
+        max-width: 950px;
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    
+    .block_fitness_category .fitness_category figure{
+        width: 230px;
+        height: 416px;
+
+    }
+
+    .block_fitness_category .fitness_category figure img{
+        width: 100%;
+    }
+    
+    
+    .block_fitness_category .fitness_category figure figcaption{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .block_fitness_category .fitness_category figure figcaption h3{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+    }
+    
+    .block_fitness_category .fitness_category figure figcaption p{
+        width: 100%;
+        margin-bottom: 25px;
+        margin-left: 0;
+        font-size: 12px;
+        text-align: center;
+    }
+    
+    .fitness_category figure figcaption button {
+        font-size: 0.9vw;
+        border: 0.15rem solid #fa7c30;
+        width: 9.5vw;
+        height: 2.5vw;
+    }
+    .bottom_btn{
+        margin-top: 20px;
+    }
+    
+    .mr_left{
+        margin-left: 0;
+    }
+
+    .expert{
+        display: block;
+        margin-bottom: 100px;
+        width: 100%;
+        margin-top: 100px;
+    }
+    
+    .expert h2 {
+        font-size: 2.3vw;
+        margin-left: 10.5%;
+        margin-bottom: 10px;
+    }
+    
+    .expert .text{
+        font-size: 8pt;
+        margin-left: 10.5%;
+    }
+    
+    .expert .expert_block{
+        max-width: 992px;
+        align-items: baseline;
+    }
+
+    .expert .expert_block figure{
+        width: 230px;
+        height: 400px;
+    }
+    
+    .expert .expert_block figure figcaption{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .expert .expert_block figure figcaption h3{
+        font-family: "OpenSans_Bold",sans-serif; 
+        margin-top: 15px;
+        width: 100%;
+        margin-left: 0;
+        font-size: 16pt;
+    }
+    
+    .expert .expert_block figure figcaption p:nth-child(2){
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 0;
+        font-size: 12pt;
+    }
+    
+    .expert .expert_block figure figcaption p:nth-child(3){
+        font-family: "OpenSans_Regular",sans-serif; 
+        width: 100%;
+        font-size: 12px;
+        margin-bottom: 0;
+        margin-left: 0;
+        text-align: center;
+    }
+
+
+    
+    .block_settings .free_days{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    
+    .block_settings  h2:nth-child(1){
+        font-size: 1.5vw;
+        margin-bottom: 20px;
+    }
+    
+    .block_settings h2:nth-child(2){
+        font-size: 2.5vw;
+        color:white;
+        margin-bottom: 30px;
+    }
+    
+    
+    /*КНОПКИ*/
+    
+    .block_settings .free_days > figcaption button {
+        font-size: 0.9vw;
+        border: 0.15rem solid #fa7c30;
+        width: 9.5vw;
+        height: 2.5vw;
+    }
+    
+    .block_settings .visiting_people > figcaption button {
+        font-size: 0.9vw;
+        border: 0.15rem solid #fa7c30;
+        width: 9.5vw;
+        height: 2.5vw;
+    }
+
+
+    footer .block_footer{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    footer .block_footer .info {
+        margin-top: 0;
+    }
+
+    footer .block_footer .info p{
+        font-size: 12px;
+        margin-top: 40px;
+        margin-bottom: 45px;
+    }
+    
+    footer .block_footer .menu_ul{
+        width: 100%;
+    }
+    
+    
+    footer .block_footer .info_form{
+        margin: 0;
+        margin-top: 50px;
+    }
+    
+    footer .block_footer .info_form input{
+        width: 220px;
+        height: 35px;
+    }
+    
+    footer .block_footer .info_form button{
+        border: 0.15rem solid #fa7c30;
+        font-size: 10pt;
+        width: 150px;
+        height: 35px;
+    }
+    
+    
+    footer .block_footer .blogs{
+        min-width: 330px;
+        height: 350px;
+        margin-top:0px;
+    }
+    
+    
+    
+    footer .block_footer .blogs figure figcaption p{
+        font-size: 12px;
+    }
+    
+    footer .block_footer .inst{
+        max-width: 255px;
+        margin-top: -35px;
+    }
+    
+    
+}
+
+
+
+/* @media (max-width:992px){
+    
+}
+
+
+
+@media (max-width:767){
+    
+} */
